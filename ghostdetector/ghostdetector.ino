@@ -1,6 +1,6 @@
 /**
  * Arduino Ghost Detector
- * v0.1
+ * v0.2
  *
  * by DomesticHacks
  * http://www.domestichacks.info/
@@ -17,7 +17,6 @@
 #define FILTER_MEASURES 30
 
 uint16_t sensorVal;
-uint16_t filteredSensorVal;
 uint8_t displayVal;
 uint16_t toneVal;
 
